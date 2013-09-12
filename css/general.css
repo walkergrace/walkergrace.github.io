@@ -1,0 +1,140 @@
+@-moz-viewport { width: device-width; scale:1; }
+@-ms-viewport { width: device-width; scale:1; }
+@-o-viewport { width: device-width; scale:1; }
+@-webkit-viewport { width: device-width; scale:1; }
+@viewport { width: device-width; scale:1; }
+
+html {
+	font-family: normal 100%/1.4  Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	
+	background: url(../img/bk2.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+ 	background-size: cover;
+}
+
+body {
+	margin: 0;
+	
+}
+
+.flex-img {
+	width: 100%;
+	
+}
+
+.icon {
+	width: 2.5rem;
+}
+
+.nav {
+	margin: 0;
+	padding-left: 1rem;
+	padding-top: .5rem;
+	padding-bottom: .5rem;
+	color:#FFF;
+	text-decoration:none;
+	list-style-type: none;
+}
+
+a,
+a:link,
+a:visited {
+	text-decoration:none;
+	color:#FFF;
+}
+
+a:hover,
+a:focus,
+a:active {
+	background-color: #FFF;
+	color:#006;
+}
+
+li {
+	display:inline-block;
+}
+
+article {
+	padding-left: 1rem;
+	padding-right: 1rem;
+	padding-bottom: 1rem;
+	background: rgba(255,255,255,.8);
+}
+
+h1 {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	margin: 0;
+	padding-top: .5rem;
+	border-bottom: 3px solid #F00;
+
+}
+
+p {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	padding-top: .5rem;
+	margin: 0;
+}
+
+@media only screen and (min-width: 20em) {
+	
+	article {
+		padding-top: 4rem;
+		padding-left: 3rem;
+		padding-right: 3rem;
+	}
+	
+}
+
+@media only screen and (min-width: 55em) {
+	
+	
+	article {
+		padding-top: 5rem;
+		padding-left: 6rem;
+		padding-right: 6rem;
+	}
+}
+
+@media only screen and (min-width: 70em) {
+	
+	
+	article {
+		padding-top: 5rem;
+		padding-left: 10rem;
+		padding-right: 10rem;
+	}
+}
+
+@media only screen and (min-width: 80em) {
+	
+	
+	article {
+		padding-top: 5rem;
+		padding-left: 14rem;
+		padding-right: 14rem;
+	}
+}
+
+@media only screen and (min-width: 90em) {
+	
+	
+	article {
+		padding-top: 5rem;
+		padding-left: 18rem;
+		padding-right: 18rem;
+	}
+}
+
+
+@media only screen and (min-width: 100em) {
+	
+	
+	article {
+		padding-top: 5rem;
+		padding-left: 22rem;
+		padding-right: 22rem;
+	}
+}
