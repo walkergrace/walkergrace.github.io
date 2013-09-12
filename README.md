@@ -1,3 +1,3 @@
-# Grace's Portfolio
 
-My amazing portfolio website
+# Grace's Amazing Portfolio
+
