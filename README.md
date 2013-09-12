@@ -1,3 +1,2 @@
-# walkergrace.github.io
-
+# Grace's Amazing Portfolio
 My amazing portfolio website
