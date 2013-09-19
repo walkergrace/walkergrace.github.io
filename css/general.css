@@ -85,6 +85,25 @@ p {
 	margin: 0;
 }
 
+.portfolio {
+	width: 100%;
+}
+
+figure {
+	margin: 0.25rem;
+	margin-top: 1rem;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: lighter;
+	padding-left: .5rem;
+	padding-right: .5rem;
+	padding-bottom: .5rem;
+	padding-top: .5rem;
+	background: rgba(255,255,255,.9);
+}
+figcaption {
+	padding-top: 1rem;
+}
+
 
 
 @media only screen and (min-width: 20em) {
@@ -93,6 +112,16 @@ p {
 		padding-top: 4rem;
 		padding-left: 3rem;
 		padding-right: 3rem;
+	}
+	figure {
+		float: left;
+		width: 60%;
+		text-align: top;
+	}
+	figcaption {
+		float: right;
+		width: 40%;
+		text-align: top;
 	}
 	
 }
